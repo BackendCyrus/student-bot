@@ -1,0 +1,22 @@
+{
+  "name": "student-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/moarefinia/student-bot.git",
+  "author": "moarefinia",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "puppeteer": "^21.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node ./src/index.ts"
+  }
+}
