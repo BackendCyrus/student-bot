@@ -11,6 +11,9 @@ PASSWORD=YOUR_PASSWORD
 
 ##### 3. پس از ایجاد فایل `.env`, با استفاده از دستورات زیر، پروژه را راه اندازی کنید:
 ```bash
+npm install
+npm start
+#or
 yarn install
 yarn start
 ```
