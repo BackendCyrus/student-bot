@@ -1,4 +1,3 @@
-require('dotenv').config();
 import puppeteer from 'puppeteer';
 import config from './config';
 
